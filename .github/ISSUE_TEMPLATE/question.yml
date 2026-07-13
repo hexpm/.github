@@ -1,0 +1,53 @@
+name: Question
+description: Ask a question about using Hex.
+title: "[Question]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For usage help, please check the Hex documentation first: https://hex.pm/docs
+  - type: dropdown
+    id: component
+    attributes:
+      label: Product or component
+      description: What is your question about?
+      options:
+        - Hex.pm website or API
+        - Hex CLI
+        - HexDocs hosting, rendering, or search
+        - Package preview
+        - Version diff
+        - Bob or package builds
+        - Infrastructure
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: attempted
+    attributes:
+      label: What have you tried?
+      description: Share any steps you already attempted.
+  - type: textarea
+    id: relevant-details
+    attributes:
+      label: Relevant details
+      description: Share relevant package, organization, API client, logs, or screenshots. This question is public, so redact secrets, tokens, account identifiers, and other sensitive data.
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Anything else that would help answer the question.

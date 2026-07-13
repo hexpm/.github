@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/hexpm/.github/security/policy
+    about: Use private vulnerability reporting or email as described in the organization security policy.
+  - name: Hex documentation
+    url: https://hex.pm/docs
+    about: Read the documentation before opening an issue.

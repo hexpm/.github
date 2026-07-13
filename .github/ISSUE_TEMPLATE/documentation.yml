@@ -1,0 +1,47 @@
+name: Documentation
+description: Report unclear, missing, or outdated Hex documentation.
+title: "[Docs]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Most package documentation on HexDocs is written and maintained by the package owner. For corrections to package-authored content, please open an issue in the package's source repository instead.
+  - type: dropdown
+    id: documentation-type
+    attributes:
+      label: Documentation type
+      description: Which documentation is affected?
+      options:
+        - Hex.pm documentation
+        - HexDocs hosting, rendering, or search
+        - Package-authored content (report this to the package repository)
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: page-section
+    attributes:
+      label: Page / section
+      description: Which documentation page or section is affected?
+      placeholder: https://hex.pm/docs/...
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is unclear or missing?
+      description: Describe the issue with the documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-improvement
+    attributes:
+      label: Suggested improvement
+      description: What would make this easier to understand?
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add links, screenshots, or examples if helpful.
