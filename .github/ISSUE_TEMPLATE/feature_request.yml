@@ -12,12 +12,9 @@ body:
       label: Product or component
       description: Which product or component would this improve?
       options:
-        - Hex.pm website or API
-        - Hex CLI
-        - HexDocs hosting, rendering, or search
-        - Package preview
-        - Version diff
-        - Bob or package builds
+        - "hexpm/hexpm: Website, API server, HexDocs hosting/processing, package preview, and package version diff"
+        - "hexpm/hex: Package manager client CLI and Mix task integration for Erlang/Elixir"
+        - "hexpm/bob: Automated build service for Elixir, Erlang, Docker tags, and package artifacts"
         - Infrastructure
         - Other
     validations:
