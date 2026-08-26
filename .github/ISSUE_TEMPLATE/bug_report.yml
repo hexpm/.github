@@ -12,12 +12,12 @@ body:
       label: Product or component
       description: Where did the issue occur? This helps us route reports filed in the wrong repository.
       options:
-        - Hex.pm website or API
-        - Hex CLI
-        - HexDocs hosting, rendering, or search
-        - Package preview
-        - Version diff
-        - Bob or package builds
+        - Hex.pm website or API (hexpm/hexpm)
+        - Hex CLI (hexpm/hex)
+        - HexDocs hosting, rendering, or search (hexpm/hexpm)
+        - Package preview (hexpm/hexpm)
+        - Version diff (hexpm/hexpm)
+        - Bob or package builds (hexpm/bob)
         - Infrastructure
         - Other
     validations:

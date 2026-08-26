@@ -12,8 +12,8 @@ body:
       label: Documentation type
       description: Which documentation is affected?
       options:
-        - Hex.pm documentation
-        - HexDocs hosting, rendering, or search
+        - Hex.pm documentation (hexpm/hexpm)
+        - HexDocs hosting, rendering, or search (hexpm/hexpm)
         - Package-authored content (report this to the package repository)
         - Other
     validations:
